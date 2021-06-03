@@ -1,0 +1,8 @@
+#!/bin/bash
+cd script
+mkdir a b c
+cd a
+touch a.txt b.txt c.txt d.json e.json
+mkdir aa bb cc
+ls -la
+mv a.txt b.txt /home/kseniya/TESTING/script/b
